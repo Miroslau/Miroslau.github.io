@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Webpack</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/dist/out.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link href="/out.css" rel="stylesheet"></head>
+<body>
+    <header class="header header_style clearfix">
+        <div class="header__bar bar">
+            <form class="header__search-form search-form" method="get">
+                <button id="printBlock" class="header__button button" type="submit">
+                    <i class="fas fa-shopping-cart button_icons"></i>
+                    <span class="button_text">empty</span>
+                    <i class="fas fa-angle-down button_icons_arrow"></i>
+                </button>
+            </form>
+            <ul class="header__list">
+                <li class="header__item">
+                    <a class="header__link" href="#">Register</a>
+                </li>
+                <li class="header__item">
+                    <a class="header__link" href="#">Sign In</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="title">
+        <div class="title__content content">
+            <div class="title__logos">
+                <h3>avenue<span> fashion</span></h3>
+            </div>
+            <nav class="title__nav nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link link"><i class="fas fa-angle-down"></i>mens</a>
+                        <div class="sub">
+                            <div class="sub__content">
+                                <div class="casuals">
+                                    <span>casuals</span>
+                                    <ul>
+                                        <li>Jackets</li>
+                                        <li>Hoodies & Sweatshirts</li>
+                                        <li>Polo Shirts</li>
+                                        <li>Sportswear</li>
+                                        <li>Trousers & Chinos</li>
+                                        <li>T-Shirts</li>
+                                    </ul>
+                                </div>
+                                <div class="formal">
+                                    <span>formal</span>
+                                    <ul>
+                                        <li>Jackets</li>
+                                        <li>Shirts</li>
+                                        <li>Suits</li>
+                                        <li>Trousers</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="sub__banner">
+                                <div class="sub__text">
+                                    <span>Autumn sale!<br/></span>up to 50% off 
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link link"><i class="fas fa-angle-down"></i>wumens</a>
+                        <div class="sub">
+                                <div class="sub__content">
+                                    <div class="casuals">
+                                        <span>casuals</span>
+                                        <ul>
+                                            <li>Jackets</li>
+                                            <li>Hoodies & Sweatshirts</li>
+                                            <li>Polo Shirts</li>
+                                            <li>Sportswear</li>
+                                            <li>Trousers & Chinos</li>
+                                            <li>T-Shirts</li>
+                                        </ul>
+                                    </div>
+                                    <div class="formal">
+                                        <span>formal</span>
+                                        <ul>
+                                            <li>Jackets</li>
+                                            <li>Shirts</li>
+                                            <li>Suits</li>
+                                            <li>Trousers</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="sub__banner">
+                                    <div class="sub__text">
+                                        <span>Autumn sale!<br/></span>up to 50% off 
+                                    </div>
+                                </div>
+                            </div>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link link"><i class="fas fa-angle-down"></i>The brand</a>
+                        <div class="sub sub_left">
+                                <div class="sub__content">
+                                    <div class="casuals">
+                                        <span>casuals</span>
+                                        <ul>
+                                            <li>Jackets</li>
+                                            <li>Hoodies & Sweatshirts</li>
+                                            <li>Polo Shirts</li>
+                                            <li>Sportswear</li>
+                                            <li>Trousers & Chinos</li>
+                                            <li>T-Shirts</li>
+                                        </ul>
+                                    </div>
+                                    <div class="formal">
+                                        <span>formal</span>
+                                        <ul>
+                                            <li>Jackets</li>
+                                            <li>Shirts</li>
+                                            <li>Suits</li>
+                                            <li>Trousers</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="sub__banner">
+                                    <div class="sub__text">
+                                        <span>Autumn sale!<br/></span>up to 50% off 
+                                    </div>
+                                </div>
+                            </div>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link link"><i class="fas fa-angle-down"></i>Local Stores</a>
+                        <div class="sub sub_left">
+                            <div class="sub__content">
+                                <div class="casuals">
+                                     <span>casuals</span>
+                                    <ul>
+                                        <li>Jackets</li>
+                                        <li>Hoodies & Sweatshirts</li>
+                                        <li>Polo Shirts</li>
+                                        <li>Sportswear</li>
+                                        <li>Trousers & Chinos</li>
+                                        <li>T-Shirts</li>
+                                    </ul>
+                                </div>
+                                <div class="formal">
+                                    <span>formal</span>
+                                    <ul>
+                                        <li>Jackets</li>
+                                        <li>Shirts</li>
+                                        <li>Suits</li>
+                                        <li>Trousers</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="sub__banner">
+                                    <div class="sub__text">
+                                        <span>Autumn sale!<br/></span>up to 50% off 
+                                    </div>
+                                </div>
+                        </div>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link link"><i class="fas fa-angle-down"></i>Look Book</a>
+                        <div class="sub sub_left">
+                            <div class="sub__content">
+                                <div class="casuals">
+                                    <span>casuals</span>
+                                    <ul>
+                                        <li>Jackets</li>
+                                        <li>Hoodies & Sweatshirts</li>
+                                        <li>Polo Shirts</li>
+                                        <li>Sportswear</li>
+                                        <li>Trousers & Chinos</li>
+                                        <li>T-Shirts</li>
+                                    </ul>
+                                </div>
+                                <div class="formal">
+                                    <span>formal</span>
+                                    <ul>
+                                        <li>Jackets</li>
+                                        <li>Shirts</li>
+                                        <li>Suits</li>
+                                        <li>Trousers</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="sub__banner">
+                                    <div class="sub__text">
+                                        <span>Autumn sale!<br/></span>up to 50% off 
+                                    </div>
+                                </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="content"></div>
+    </section>
+    <section class="category">
+        <div class="category__content">
+            <nav class="category__nav nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" tabindex="1" class="nav__link link link_fonts" id="whomens">womens</a></li>
+                    <li class="nav__item"><a href="#" tabindex="1" class="nav__link link link_fonts" id="mens">mens</a></li>
+                    <li class="nav__item"><a href="#" tabindex="1" class="nav__link link link_fonts">kids</a></li>
+                </ul>
+            </nav>
+            <div class="category__portfolio">
+                <div class="category__image">
+                    <div class="Mens1 Whomens1 category__price"><sup>£</sup><span>34.79</span></div>
+                    <img src="./img/w1.png" alt="womens"/>
+                    <div class="category__cart">
+                        <h3 class="mens-text1 whomens-text1 cart__text" >Womens burnt orange casual tee  <sup>£</sup><span>34.79</span></h3>
+                        <span class="cart__descript">Classic casual t-shirt for women on the move.<br/>100% cotton.</span>
+                        <div class="form">
+                            <form class="form__search-form search-form" name="search" method="get" id="searchform">
+                                <input class="input1" type="text" id="key" placeholder="qte"/>
+                                <button class="cart__button button_color" id="print" type="button">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    <span class="submit__text">add to cart</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="category__image">
+                    <div class="Mens2 Whomens2 category__price"><sup>£</sup><span>47.50</span></div>
+                    <img src="./img/w2.png" alt="womens"/>
+                    <div class="category__cart">
+                        <h3 class="mens-text2 whomens-text2 cart__text">Womens burnt orange casual tee  <sup>£</sup><span>47.50</span></h3>
+                        <span class="cart__descript">Classic casual t-shirt for women on the move.<br/>100% cotton.</span>
+                        <div class="form">
+                            <form class="form__search-form search-form" method="get">
+                                <input class="input2" type="text" placeholder="qte"/>
+                                <button class="cart__button button_color" id="print1" type="button">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    <span class="submit__text">add to cart</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="category__image">
+                    <div class="Mens3 Whomens3 category__price"><sup>£</sup><span>89.99</span></div>
+                    <img src="./img/m.png" alt="mens"/>
+                    <div class="category__cart">
+                        <h3 class="mens-text3 whomens-text3 cart__text">Womens burnt orange casual tee  <sup>£</sup><span>89.99</span></h3>
+                        <span class="cart__descript">Classic casual t-shirt for women on the move.<br/>100% cotton.</span>
+                        <div class="form">
+                            <form class="form__search-form search-form" method="get">
+                                <input class="input3" type="text" name="amount" placeholder="qte"/>
+                                <button class="cart__button button_color" id="print2" type="button">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    <span class="submit__text">add to cart</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="category__image">
+                    <div class="Mens4 Whomens4 category__price"><sup>£</sup><span>89.99</span></div>
+                    <img src="./img/m.png" alt="mens"/>
+                    <div class="category__cart">
+                        <h3 class="mens-text4 whomens-text4 cart__text">Womens burnt orange casual tee  <sup>£</sup><span>89.99</span></h3>
+                        <span class="cart__descript">Classic casual t-shirt for women on the move.<br/>100% cotton.</span>
+                        <div class="form">
+                            <form class="form__search-form search-form" method="get">
+                                <input class="input4" type="text" name="amount" placeholder="qte"/>
+                                    <button class="cart__button button_color" id="print3" type="button">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        <span class="submit__text">add to cart</span>
+                                    </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="category__image">
+                    <div class="Mens5 Whomens5 category__price"><sup>£</sup><span>89.99</span></div>
+                    <img src="./img/m.png" alt="mens"/>
+                    <div class="category__cart">
+                        <h3 class="mens-text5 whomens-text5 cart__text">Womens burnt orange casual tee  <sup>£</sup><span>89.99</span></h3>
+                        <span class="cart__descript">Classic casual t-shirt for women on the move.<br/>100% cotton.</span>
+                        <div class="form">
+                            <form class="form__search-form search-form" method="get">
+                                <input class="input5" type="text" name="amount" placeholder="qte"/>
+                                <button class="cart__button button_color" id="print4" type="button">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    <span class="submit__text">add to cart</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="category__image">
+                    <div class="Mens6 Whomens6 category__price"><sup>£</sup><span>34.79</span></div>
+                    <img src="./img/w1.png" alt="womens"/>
+                    <div class="category__cart">
+                        <h3 class="mens-text6 whomens-text6 cart__text">Womens burnt orange casual tee  <sup>£</sup><span>34.79</span></h3>
+                        <span class="cart__descript">Classic casual t-shirt for women on the move.<br/>100% cotton.</span>
+                        <div class="form">
+                            <form class="form__search-form search-form"  method="get">
+                                <input class="input6" type="text" name="amount" placeholder="qte"/>
+                                <button class="cart__button button_color" id="print5" type="button">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    <span class="submit__text">add to cart</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="category__image">
+                    <div class="Mens7 Whomens7 category__price"><sup>£</sup><span>29.95</span></div>
+                    <img src="./img/w3.png" alt="womens"/>
+                    <div class="category__cart">
+                        <h3 class="mens-text7 whomens-text7 cart__text">Womens burnt orange casual tee  <sup>£</sup><span>29.95</span></h3>
+                        <span class="cart__descript">Classic casual t-shirt for women on the move.<br/>100% cotton.</span>
+                        <div class="form">
+                            <form class="form__search-form search-form" method="get">
+                                <input class="input7" type="text" name="amount" placeholder="qte" pattern="[0-9]+$"/>
+                                <button class="cart__button button_color" id="print6" type="button">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    <span class="submit__text">add to cart</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="category__image">
+                    <div class="Mens8 Whomens8 category__price"><sup>£</sup><span>47.50</span></div>
+                    <img src="./img/w2.png" alt="womens"/>
+                    <div class="category__cart">
+                        <h3 class="mens-text8 whomens-text8 cart__text">Womens burnt orange casual tee  <sup>£</sup><span>47.50</span></h3>
+                        <span class="cart__descript">Classic casual t-shirt for women on the move.<br/>100% cotton.</span>
+                        <div class="form">
+                            <form class="form__search-form search-form" method="get">
+                                <input class="input8" type="text" name="amount" placeholder="qte"/>
+                                <button class="cart__button button_color" id="print7" type="button">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    <span class="submit__text">add to cart</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="content"></div>
+        <div class="footer__bar">
+            <div class="casuals casuals_information">
+                <span>information</span>
+                    <ul>
+                        <li>The brand</li>
+                        <li>Local stores</li>
+                        <li>Customer service</li>
+                        <li>Privacy & cookies</li>
+                        <li>Site map</li>
+                    </ul>
+            </div>
+            <div class="casuals casuals_information">
+                <span>why buy from us</span>
+                    <ul>
+                        <li>Shipping & cookies</li>
+                        <li>Secture shopping</li>
+                        <li>Testimonials</li>
+                        <li>Award winning</li>
+                        <li>Ethical trading</li>
+                    </ul>
+            </div>
+            <div class="casuals casuals_information">
+                <span>Your account</span>
+                    <ul>
+                        <li>Sign in</li>
+                        <li>Register</li>
+                        <li>View cart</li>
+                        <li>View your lookbook</li>
+                        <li>Track an order</li>
+                        <li>Update information</li>
+                    </ul>
+            </div>
+            <div class="casuals casuals_information">
+                <span>Lookbook</span>
+                    <ul>
+                        <li>Latest posts</li>
+                        <li>Men’s lookbook</li>
+                        <li>Women’s lookbook</li>
+                        <li>Lookbooks RSS feed</li>
+                        <li>View your lookbook</li>
+                        <li>Delete your lookbook</li>
+                    </ul>
+            </div>
+            <div class="casuals casuals_information">
+                <span>contact details</span>
+                    <ul>
+                        <li>Head Office: Avenue Fashion,<br/>180-182 Regent Street, London</li>
+                        <li>Telephone: 0123-456-789</li>
+                        <li>Email: support@yourwebsite.com</li>
+                    </ul>
+            </div>
+        </div>
+        <div class="footer__style">
+            <div class="footer__bar words">
+                <div class="words__text">© 2016 Avenue Fashion<sup>TM</sup></div>
+                <div class="words__text text_config"><span>Design by RobbyDesigns.com</span>Dev by Loremipsum.com</div>
+            </div>
+        </div>
+    </footer>
+<script type="text/javascript" src="/out.js"></script></body>
+</html>
